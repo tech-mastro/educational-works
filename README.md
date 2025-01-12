@@ -13,7 +13,7 @@ This project analyzes soil moisture and temperature data, exploring trends, rela
 ## How to Use
 1. Clone this repository.
 2. Install required libraries using `pip install -r requirements.txt`.
-3. Run `soil_moisture_analysis.py`.
+3. Run `soil-moisture.py`.
 
 ## Data
 Data is sourced from [source]. Place the dataset in the root folder as `soil_moisture.csv`.
