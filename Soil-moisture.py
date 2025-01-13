@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[13]:
-
 
 import numpy as np
 import pandas as pd
@@ -81,9 +76,6 @@ plt.tight_layout()
 plt.show()
 
 
-# In[15]:
-
-
 # Daily average
 daily_avg = soil_moisture_data.resample('D').mean()
 
@@ -158,10 +150,4 @@ top_moisture = soil_moisture_data.nlargest(10, 'soil_moisture')[['soil_moisture'
 
 print("Top 10 Soil Moisture Readings:")
 print(top_moisture)
-
-
-# In[ ]:
-
-
-
 
